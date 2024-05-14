@@ -1,0 +1,94 @@
+.gamebar{
+    background-color: rgb(26, 26, 72);
+    height: 50px;
+    width: 100%;
+}
+.text{
+    color: rgb(167, 158, 158);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+.container{
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.rock{
+    height: 100px;
+    width: 100px;
+    background-image: url("images/rock.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.rock:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.paper{
+    height: 100px;
+    width: 100px;
+    background-image: url("images/paper.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.paper:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.sicssors{
+    height: 100px;
+    width: 100px;
+    background-image: url("images/scissors.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.sicssors:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    margin-left: 50px;
+}
+#user-score{
+    padding-left: 10px;
+}
+#computer-score{
+    padding-left: 20px;
+}
+.msg-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
